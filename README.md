@@ -88,7 +88,7 @@ php artisan key:generate
     php artisan migrate --seed
 ```
 
-7. Compile assets and Start the development server: composer run dev
+7. Compile assets and Start the development server: `composer run dev`
     
 
 Now you can access the application at `http://localhost:8000`
@@ -109,7 +109,9 @@ The application includes feature tests for:
 ### And coding style tests
 
 Laravel Pint is configured for code style checking:
+```bash
     composer lint
+```
 
 ## 🎈 Usage <a name="usage"></a>
 
@@ -125,9 +127,11 @@ After installation:
 For production deployment:
 1. Set up a web server (Nginx/Apache) with PHP support
 2. Configure the database connection in .env
-3. Run: 
+3. Run:
+```bash
     php artisan optimize
     npm run production
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
@@ -138,7 +142,7 @@ For production deployment:
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@yourusername](https://github.com/yourusername) - Sole developer
+- [@ja-phiri](https://github.com/ja-phiri) - Sole developer
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
