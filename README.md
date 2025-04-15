@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/book-review.svg)](https://github.com/yourusername/book-review/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/book-review.svg)](https://github.com/yourusername/book-review/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/ja-phiri/book-review.svg)](https://github.com/yourusername/book-review/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ja-phiri/book-review.svg)](https://github.com/yourusername/book-review/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -85,20 +85,22 @@ php artisan key:generate
 
 6. Run migrations and seed the database:
 ```bash
-    php artisan migrate --seed
+php artisan migrate --seed
 ```
 
 7. Compile assets and Start the development server:
 ```bash
-composer run dev`
- ```   
+composer run dev
+```   
 
 Now you can access the application at `http://localhost:8000`
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
 To run the PHPUnit tests:
-    php artisan test
+```bash
+php artisan test
+```
 
 ### Break down into end to end tests
 
@@ -112,7 +114,7 @@ The application includes feature tests for:
 
 Laravel Pint is configured for code style checking:
 ```bash
-    composer lint
+composer lint
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -131,8 +133,8 @@ For production deployment:
 2. Configure the database connection in .env
 3. Run:
 ```bash
-    php artisan optimize
-    npm run production
+php artisan optimize
+npm run production
 ```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
