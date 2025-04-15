@@ -62,5 +62,11 @@
                 </div>
             </li>
         @endforelse
+        @if ($books->count())
+            <nav>
+                {{ $books->links() }}
+            </nav>
+        @endif
+
     </ul>
 @endsection
