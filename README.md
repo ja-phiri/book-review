@@ -88,8 +88,10 @@ php artisan key:generate
     php artisan migrate --seed
 ```
 
-7. Compile assets and Start the development server: `composer run dev`
-    
+7. Compile assets and Start the development server:
+```bash
+composer run dev`
+ ```   
 
 Now you can access the application at `http://localhost:8000`
 
